@@ -1,1 +1,0 @@
-Zhengfa Liu received the M.Eng degree in electronic and communication engineering from the National Space Science Center, Chinese Academy of Sciences, Beijing, China, in 2018. He is currently working toward a Ph.D. degree in vehicle engineering at Tongji University, Shanghai, China. His research interests include adversarial learning, multi-sensor fusion, and domain adaptation.
