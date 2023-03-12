@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Zhengfa Liu</title>
+  
+  <meta name="author" content="Zhengfa Liu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Zhengfa Liu</name>
+              </p>
+              <p> I am currently a 5th-year Ph.D. student in the<a href="https://github.com/ispc-lab"> Intelligent Sensing, Perception and Computing (ISPC) Gruop</a> led by <a href="https://ispc-group.github.io/">Prof. Guang Chen</a> at Tongji University, Shanghai, China, where I work on computer vision and machine learning. I received the M.Eng degree in Electronic and Communication Engineering from the National Space Science Center, Chinese Academy of Sciences, Beijing, China, in 2018. I worked on FPGA logic programming and PCB design for my M.Eng. degree.
+              </p>
+              <p>
+                
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:zhengfaliu2011@163.com">Email</a> &nbsp/&nbsp
+                <a href="data/ZhengfaLiu-CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="data/ZhengfaLiu-bio.txt">Bio</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?hl=en&user=KJ4IOBoAAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <a href="">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/ZhengfaLiu.jpg"><img style="width:60%;max-width:60%" alt="profile photo" src="images/ZhengfaLiu_circle.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            
+	   <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                I'm interested in computer vision, machine learning, multi-sensor fusion, and domain adaptation. Much of my research is about perceiving open, unknown visual domains using data or models from a single or several source domains (Closed-set Domain Adatpation, Open-set Domain Adaptation, Domain Generalization, Predictive Domain Adaptation).
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+	   <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Selected Publications</heading>
+              <p>
+               Representative papers are <span class="highlight">highlighted</span>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+				
+      
+          
+          <tr onmouseout="psdc_stop()" onmouseover="psdc_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='psdc_image'>
+                  <img src='images/psdc_after.jpg' width="180"></div>
+                <img src='images/psdc_before.jpg' width="180">
+              </div>
+              <script type="text/javascript">
+                function psdc_start() {
+                  document.getElementById('psdc_image').style.opacity = "1";
+                }
+
+                function samurai_stop() {
+                  document.getElementById('psdc_image').style.opacity = "0";
+                }
+                psdc_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/9998556">
+                <papertitle>PSDC: A Prototype-Based Shared-Dummy Classifier Model for Open-Set Domain Adaptation</papertitle>
+              </a>
+              <br>
+	      <strong>Zhengfa Liu</strong>,
+              <a href="https://ispc-group.github.io/">Guang Chen</a>, 
+              <a href="">Andreas Engelhardt</a>, 
+              <a href="https://scholar.google.com/citations?user=xxUvEtIAAAAJ&hl=en">Zhijun Li</a>, 
+              <a href="https://scholar.google.com/citations?hl=en&user=gTWIZmEAAAAJ&view_op=list_works&sortby=pubdate">Yu Kang</a>, 
+              <a href="https://www.sanqing.xyz/">Sanqing Qu</a>,
+              <a href="">Changjun Jiang</a>,
+              <br>
+              <em>IEEE Transactions on Cybernetics</em>, 2022
+              <br>
+              <a href="">project page</a> /
+              <a href="">video</a> /
+              <a href="">arXiv</a>
+              <p></p>
+              <p>
+		Open Set Domain Adaptation (OSDA) aims to achieve knowledge transfer in the presence of both domain shift and label shift, which assumes that there exist additional unknown target classes not presented in the source domain. To solve the OSDA problem, most existing methods introduce an additional unknown class to the source classifier and represent the unknown target instances as a whole. However, it is unreasonable to treat all unknown target instances as a group, since these unknown instances typically consist of distinct categories and distributions. It is challenging to identify all unknown instances with only one additional class. In addition, most existing methods directly introduce marginal distribution alignment to alleviate distribution shift between source and target domain, failing to learn discriminative class boundaries in the target domain since they ignore categorical discriminative information in the adaptation. To address these problems, in this paper, we propose a novel Prototype-based Shared-Dummy Classifier (PSDC) model for the OSDA.
+              </p>
+            </td>
+          </tr>	
+
+ 	<tr onmouseout="Ebrake_stop()" onmouseover="Ebrake_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='Ebrake_image'>
+                  <img src='images/Ebrake_after.jpg' width="180"></div>
+                <img src='images/Ebrake_before.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function Ebrake_start() {
+                  document.getElementById('Ebrake_image').style.opacity = "1";
+                }
+
+                function Ebrake_stop() {
+                  document.getElementById('Ebrake_image').style.opacity = "0";
+                }
+                Ebrake_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://downloads.hindawi.com/journals/jat/2022/2673191.pdf">
+                <papertitle>Mixed Event-Frame Vision System for Daytime Preceding Vehicle Taillight Signal Measurement Using Event-Based Neuromorphic Vision Sensor</papertitle>
+              </a>
+              <br>
+	      <strong>Zhengfa Liu</strong>,
+              <a href="https://ispc-group.github.io/">Guang Chen</a>, 
+              <a href="https://orcid.org/0000-0002-5376-4448">Ya Wu</a>, 
+              <a href="https://orcid.org/0000-0003-0004-3716"> Jiatong Du</a>, 
+              <a href="https://www.kth.se/profile/conr">Jörg Conradt</a>, 
+              <a href="https://www.ce.cit.tum.de/en/air/people/prof-dr-ing-habil-alois-knoll/">Alois Knoll</a>,
+              <br>
+              <em>Journal of Advanced Transportation</em>, 2022
+              <br>
+              <a href="">project page</a> /
+              <a href="">video</a> /
+              <a href="">arXiv</a>
+              <p></p>
+              <p>
+An important aspect of the perception system for intelligent vehicles is the detection and signal measurement of vehicle taillights. In this work, we present a novel vision-based measurement (VBM) system, using an event-based neuromorphic vision sensor, which is able to detect and measure the vehicle taillight signal robustly. To the best of our knowledge, it is for the first time the neuromorphic vision sensor is paid attention to for utilizing in the field of vehicle taillight signal measurement. In contrast to most existing work that relies purely on standard frame-based cameras for the taillight signal measurement, the presented mixed event/frame system extracts the frequency domain features from the spatial and temporal signal of each taillight region and measures the taillight signal by combining the active-pixel sensor (APS) frames and dynamic vision sensor (DVS) events. The results show the high potential of the event-based neuromorphic vision sensor being used for optical signal measurement applications, especially in dynamic environments.
+              </p>
+            </td>
+          </tr>	
+
+ 	<tr onmouseout="Aed_stop()" onmouseover="Aed_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='Aed_image'>
+                  <img src='images/Aed_after_1.png' width="180"></div>
+                <img src='images/Aed_before_1.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function Aed_start() {
+                  document.getElementById('Aed_image').style.opacity = "1";
+                }
+
+                function Aed_stop() {
+                  document.getElementById('Aed_image').style.opacity = "0";
+                }
+                Aed_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://mediatum.ub.tum.de/doc/1625396/f8sycaf3gfzsilfmh7b5fh7ok.NeuroAED_Towards_Efficient_Abnormal_Event_Detection_in_Visual_Surveillance_With_Neuromorphic_Vision_Sensor.pdf">
+                <papertitle>NeuroAED: Towards Efficient Abnormal Event Detection in Visual Surveillance With Neuromorphic Vision Sensor</papertitle>
+              </a>
+              <br>
+              <a href="https://ispc-group.github.io/">Guang Chen</a>, 
+              <a href="">Peigen Liu</a>,
+	      <strong>Zhengfa Liu</strong>, 
+              <a href="https://person.zju.edu.cn/en/0018196"> Huajin Tang</a>,
+	      <a href="https://scholar.google.de/citations?hl=en&user=L5Heu8kAAAAJ&view_op=list_works&sortby=pubdate"> Lin Hong</a>, 
+	      <a href="https://scholar.google.de/citations?hl=en&user=FNTz8j8AAAAJ&view_op=list_works&sortby=pubdate"> Jinhu Dong</a>,
+              <a href="https://www.kth.se/profile/conr">Jörg Conradt</a>, 
+              <a href="https://www.ce.cit.tum.de/en/air/people/prof-dr-ing-habil-alois-knoll/">Alois Knoll</a>,
+              <br>
+              <em>Journal of Advanced Transportation</em>, 2022
+              <br>
+              <a href="">project page</a> /
+              <a href="">video</a> /
+              <a href="">arXiv</a>
+              <p></p>
+              <p>
+Abnormal event detection is an important task in research and industrial applications, which has received considerable attention in recent years. Existing methods usually rely on standard frame-based cameras to record the data and process them with computer vision technologies. In contrast, this paper presents a novel neuromorphic vision based abnormal event detection system. Compared to the frame-based camera, neuromorphic vision sensors, such as Dynamic Vision Sensor (DVS), do not acquire full images at a fixed frame rate but rather have independent pixels that output intensity changes (called events) asynchronously at the time they occur. Thus, it avoids the design of the encryption scheme. Additionally, we build the NeuroAED dataset, the first public dataset dedicated to abnormal event detection with neuromorphic vision sensor. The NeuroAED dataset consists of four sub-datasets: Walking, Campus, Square, and Stair dataset.
+              </p>
+            </td>
+          </tr>		
+
+  </table>
+</body>
+
+</html>
