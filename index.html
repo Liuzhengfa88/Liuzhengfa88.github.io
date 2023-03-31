@@ -62,7 +62,48 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
-      
+      <tr onmouseout="ddifln_stop()" onmouseover="ddifln_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ddifln_image'>
+                  <img src='images/ddifln_after.jpg' width="180"></div>
+                <img src='images/ddifln_before.jpg' width="180">
+              </div>
+              <script type="text/javascript">
+                function ddifln_start() {
+                  document.getElementById('ddifln_image').style.opacity = "1";
+                }
+
+                function ddifln_stop() {
+                  document.getElementById('ddifln_image').style.opacity = "0";
+                }
+                ddifln_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>D<sup>2</sup>IFLN: Disentangled Domain-Invariant Feature Learning Networks for Domain Generalization</papertitle>
+              </a>
+              <br>
+	      <strong>Zhengfa Liu</strong>,
+              <a href="https://ispc-group.github.io/">Guang Chen</a>,
+              <a href="https://scholar.google.com/citations?user=xxUvEtIAAAAJ&hl=en">Zhijun Li</a>,
+              <a href="https://www.sanqing.xyz/">Sanqing Qu</a>,
+	      <a href="https://scholar.google.com/citations?hl=en&user=gTWIZmEAAAAJ&view_op=list_works&sortby=pubdate">Yu Kang</a>, 
+              <a href="">Changjun Jiang</a>
+              <br>
+              <em>IEEE Transactions on Cognitive and Developmental Systems</em>, 2023
+              <br>
+              <a href="">project page</a> /
+              <a href="">video</a> /
+              <a href="">arXiv</a>
+              <p></p>
+              <p>
+		Domain generalization (DG) aims to learn a model that generalizes well to an unseen test distribution. Mainstream methods follow the domain-invariant representational learning philosophy to achieve this goal. However, due to the lack of priori knowledge to determine which features are domain-specific and task-independent, and which features are domain-invariant and task-relevant, existing methods typically learn entangled representations, limiting their capacity to generalize to the distribution-shifted target domain. To address this issue, in this paper, we propose novel Disentangled Domain-Invariant Feature Learning Networks (D2IFLN), to adapt feature realize feature disentanglement and facilitate domain-invariant feature learning.
+              </p>
+            </td>
+          </tr>	
+
           
           <tr onmouseout="psdc_stop()" onmouseover="psdc_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -76,7 +117,7 @@
                   document.getElementById('psdc_image').style.opacity = "1";
                 }
 
-                function samurai_stop() {
+                function psdc_stop() {
                   document.getElementById('psdc_image').style.opacity = "0";
                 }
                 psdc_stop()
